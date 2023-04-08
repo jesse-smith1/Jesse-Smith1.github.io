@@ -2,7 +2,8 @@ body { background-color: rgb(175, 223, 221);
 text-align: center;
 font-style: oblique;
 }
-h2 {text-align: center; 
+
+.smaller-header {text-align: center; 
   margin-top: 20px;
   padding: 20px 10px 20px 10px; 
  border: 2px solid black; 
@@ -13,41 +14,6 @@ h2 {text-align: center;
  padding-bottom: 10px;
 background-color: white
 }
-
-
-h3 {text-align: center; 
-  margin-top: 20px;
-  padding: 20px 10px 20px 10px; 
- border: 2px solid black; 
- border-radius: 8px;
- width: 0 auto;
- height: 0 auto;
- padding-top: 10px;
- padding-bottom: 10px;
-background-color: white}
-
-h4 {text-align: center; 
-  margin-top: 20px;
-  padding: 20px 10px 20px 10px; 
- border: 2px solid black; 
- border-radius: 8px;
- width: 0 auto;
- height: 0 auto;
- padding-top: 10px;
- padding-bottom: 10px;
-background-color: white
-}
-
-h5  {text-align: center; 
-  margin-top: 20px;
-  padding: 20px 10px 20px 10px; 
- border: 2px solid black; 
- border-radius: 8px;
- width: 0 auto;
- height: 0 auto;
- padding-top: 10px;
- padding-bottom: 10px;
-background-color: white}
 
 p { text-align: center;
   margin-top: 30px;
@@ -75,32 +41,11 @@ h1 {
 background-color: white;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-  padding: 5px;
-}
-
- center {display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
- }
-
-
 img {
   border-radius: 10px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
-
 
 ul {
   list-style-type: none;
